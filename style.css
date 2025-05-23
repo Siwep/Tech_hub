@@ -68,3 +68,38 @@ font-size: 24px;
 .cart-link:hover {
     background-color: #2569eb;
 }
+
+.hero {
+    background: -moz-linear-gradient(135deg, #2569eb,#3b4ef6);
+    color: white;
+    text-align: center;
+    padding: 150px 20px 100px;
+    margin: 70px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px ;
+    font-weight: bold;
+}
+
+.hero p {
+font-size: 20px;
+margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: white;
+    color: #3b4ef6;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #f8fafc;
+    transform: translateY(-2px);
+}
